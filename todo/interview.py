@@ -4,6 +4,7 @@ from rest_framework import status
 
 from .models import Todo
 
+
 class Interview(APIView):
 
     def get(self, request):
@@ -20,4 +21,3 @@ class Interview(APIView):
             {"result": "post result"}, 
             status=status.HTTP_200_OK
         )
-    

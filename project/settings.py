@@ -14,6 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent
 INSTALLED_APPS = [
     'todo.apps.TodoConfig',
     'rest_framework',
+    'treebeard',
     'drf_yasg',
     'django.contrib.admin',
     'django.contrib.auth',
